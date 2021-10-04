@@ -1,0 +1,125 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap'); */
+
+
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background-image: url('StopWatch.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
+.container{
+    background-image: radial-gradient(circle, #eeeeee, #d8ecff,
+     #98f3ff, #2ffaff, #00fcc9, #00eeb5, 
+     #00e0a1, #00d28e, #00b7aa, #0099b3, #0079a5, #305985);
+     width: 40%;
+     /* height: 40%; */
+     min-width: 600px;
+     /* min-height: 200px; */
+     position: absolute;
+     transform: translate(-50%, -50%);
+     top: 50%;
+     left: 26%;
+     padding: 60px 0;
+     border-radius: 12px;
+
+    }
+
+    tagline{
+        font-family: cursive;
+        font-size: 35px;
+        /* padding: 10px; */
+        color: rgb(136, 0, 0);
+        font-weight: bolder;
+        margin-left: 14px;
+        position: relative;
+        display: flex;
+        text-align: center;
+        /* top: 50%; */
+        left: 35%;
+        /* right: -10%; */
+        
+        
+       
+    }
+
+    .timerDis{
+        position: relative;
+        width: 110%;
+        background: linear-gradient(-135deg, #023dac, #025fac);
+        left: -5%;
+        padding: 40px 0;
+        font-family: 'Courier New', Courier, monospace;
+        color: cornsilk;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 9px;
+        font-size: 40px;
+        box-shadow: 0 0 24px rgba(0,139,253,0.25);
+    }
+
+    .buttons{
+        width: 80%;
+        margin: 60px auto 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .buttons button{
+        padding: 15px 25px;
+        background-color: rgb(218, 231, 37);
+        color: black;
+        border: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 22px;
+        border-radius: 6px;
+        cursor: pointer;
+        outline: none;
+    }
+
+    @media   (max-width: 600px) and (max-width:1200px){
+        body{
+    background-image: url('StopWatch.jpg');
+
+        }
+    }
+
+    @media   (max-width: 600px) and (max-width:1400px){
+        .container{
+            width: 100%;
+            background-image: radial-gradient(circle, #eeeeee, #d8ecff,
+            #98f3ff, #2ffaff, #00fcc9, #00eeb5, 
+            #00e0a1, #00d28e, #00b7aa, #0099b3, #0079a5, #305985);
+            width: 40%;
+            /* height: 40%; */
+            min-width: 450px;
+            /* min-height: 200px; */
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%;
+            padding: 60px 0;
+            border-radius: 12px;
+        }
+    }
+    /* @media  (max-width:400px) {
+        .buttons button{
+            width: 40%;
+            margin: auto;
+        
+  }
+} */
+    
+
+    
